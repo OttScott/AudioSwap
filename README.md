@@ -1,4 +1,4 @@
-# audioswap
+# AudioSwap
 
 A small, standalone Windows command-line utility that rotates through an ordered
 list of audio output device IDs. No background service, PowerShell module,
@@ -101,3 +101,7 @@ Default switching uses Windows' undocumented `IPolicyConfig` COM interface.
 This is the same interface family used by established audio switchers, but
 Microsoft does not guarantee its compatibility across future Windows releases.
 No C compiler or DLL bundled with audioswap is needed.
+
+## License
+
+AudioSwap is licensed under the [MIT License](LICENSE).
